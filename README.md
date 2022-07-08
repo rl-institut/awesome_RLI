@@ -26,7 +26,7 @@ Package description should look like:
 ## Data visualization
 
 - [plotly](https://plotly.com/python/) | Plotly Open Source Graphing Library for Python
-  - [E-MetroBus](https://github.com/rl-institut/E_Metrobus) | Hendrik Huyskens, Bryan Lancien | Django-class for integrating plotly charts in templates; asynchronous requests for plotly charts delivered to frontend
+  - [E-MetroBus](https://github.com/rl-institut/E_Metrobus) | Hendrik Huyskens, Bryan Lancien | Django-class for integrating plotly charts in templates; asynchronous requests for plotly charts delivered to frontend; visit [E-MetroBus Homepage](https://e-metrobus.berlin/)
   
 - [dash](https://dash.plotly.com/)/plotly | Dash is the original low-code framework for rapidly building data apps in Python
-  - [Open-MODEX Dashboard](https://github.com/open-modex/result_comparison) | Hendrik Huyskens | Interactive dashboard for applying different charts on data from OEP; Filter settings depending on/updating with data; user settings can be stored in DB
+  - [Open-MODEX Dashboard](https://github.com/open-modex/result_comparison) | Hendrik Huyskens | Interactive dashboard for applying different charts on data from OEP; Filter settings depending on/updating with data; user settings can be stored in DB: visit [MODEX Dashboard](https://modex-results.rl-institut.de/)
