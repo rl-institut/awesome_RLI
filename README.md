@@ -25,6 +25,10 @@ Package description should look like:
 - [djangorestframework-mvt](https://github.com/corteva/djangorestframework-mvt) | A Django REST Framework extension for creating views that serialize model data to Map Box Vector Tiles via Postgres.
   - [Digiplan](https://github.com/rl-institut-private/digiplan) | Hendrik Huyskens | Extended version to allow multiple vector tiles per source
 
+- [open_plan](https://github.com/open-plan-tool/gui/) | A GUI which allow user to build energy system with drag and drop and then request a simulation (currently only with [multi-vector-simulator](https://github.com/rl-institut/multi-vector-simulator)), and allow results vizualisation and scenarios comparisons.
+  - [DualNumberField](https://github.com/open-plan-tool/gui/blob/ab707b7a5ee8e32d953d1e1bbcbe6bed47222e60/app/projects/helpers.py#L193) | @Bachibouzouk | Form to allow the user to write down a scalar OR upload a timeseries which then format them as json to be saved into the database. This form is implemented in open_plan with a js onchange function which plots the timeseries uploaded (if any), nevertheless this is not included by default in the field.
+  - [Drag and drop energy system components](https://github.com/open-plan-tool/gui/blob/main/app/static/js/grid_model_topology.js) | @Bachibouzouk | **Not very well commented code yet** using [draflow js](https://github.com/jerosoler/Drawflow) to have draggable and clickable energy system components. The helper functions to interact with a django DB is made in a [separate file](https://github.com/open-plan-tool/gui/blob/main/app/projects/scenario_topology_helpers.py). An example of the implementation is done in the template of the [scenario creation step 2](https://github.com/open-plan-tool/gui/blob/main/app/templates/scenario/scenario_step2.html)
+
 ## Data Management
 
 - [frictionless](https://github.com/frictionlessdata/frictionless-py) | Data management framework for Python that provides functionality to describe, extract, validate, and transform tabular data
